@@ -4,14 +4,15 @@
 }
 
 :root {
-    --primary: #c55505;
-    --primary-hover: rgb(255, 132, 0);
+    --primary: #484749;
+    --primary-hover: rgb(210, 39, 0);
     --secondary: black;
+    --primary_bg: rgb(128, 17, 17);
 }
 
 /* type */
 header {
-    background: linear-gradient(to right bottom, var(--primary) 60%, var(--secondary));
+    background: linear-gradient(to right bottom, var(--primary_bg) 60%, var(--secondary));
     padding: 30px 25px;
     border: 5px solid var(--secondary);
     text-align: center;
